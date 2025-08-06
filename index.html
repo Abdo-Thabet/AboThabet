@@ -1,15 +1,68 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>Abo Thabet Info</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>بطاقة أبو ثابت</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #222;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 350px;
+      text-align: center;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0077ff;
+    }
+    h2 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: #0077ff;
+    }
+    p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0077ff;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #005ec4;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align: center; padding: 20px;">
-    <h1>Abo Thabet</h1>
-    <img src="profile.jpg" alt="Abo Thabet" style="max-width: 300px; border-radius: 10px;"><br><br>
-    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/14HfSTmpiV4/" target="_blank">Visit Profile</a></p>
-    <p><strong>Phone:</strong> 01066725425</p>
-    <p><strong>Address:</strong> Ashment - Nasser - Beni Suef</p>
+<body>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/Abdo-Thabet/AboThabet/main/user.jpg" alt="Abo Thabet" />
+    <h2>Abo Thabet</h2>
+    <p>📞 01066725425</p>
+    <p>📍 Ashment - Nasser - Beni Suef</p>
+    <a class="button" href="https://www.facebook.com/share/14HfSTmpiV4/" target="_blank">زيارة فيسبوك</a>
+  </div>
 </body>
 </html>
+
